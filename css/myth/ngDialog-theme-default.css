@@ -22,13 +22,14 @@
 	}
 }
 
-.ngdialog.ngdialog-theme-default {
-	padding-bottom: 160px;
-	padding-top: 160px;
-}
-
 .ngdialog.ngdialog-theme-default.ngdialog-closing .ngdialog-content {
 	animation: ngdialog-flyout .5s;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content-wrapper {
+	padding-bottom: 160px;
+	padding-top: 160px;
+	position: relative;
 }
 
 .ngdialog.ngdialog-theme-default .ngdialog-content {
